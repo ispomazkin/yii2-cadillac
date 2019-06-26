@@ -1,6 +1,6 @@
 <?php
 
-namespace ispomazkin\chevrolet_america;
+namespace ispomazkin\cadillac;
 
 use Yii;
 use yii\base\BootstrapInterface;
@@ -11,9 +11,8 @@ class Bootstrap implements BootstrapInterface{
     //Метод, который вызывается автоматически при каждом запросе
     public function bootstrap($app)
     {
-
-        $module = $app->getModule('chevrolet_america');
-        /* @var $module \ispomazkin\chevrolet_america\Module */
+        $module = $app->getModule('cadillac');
+        /* @var $module \ispomazkin\Cadillac\Module */
 
         $routes = require 'Routes.php';
         //Правила маршрутизации

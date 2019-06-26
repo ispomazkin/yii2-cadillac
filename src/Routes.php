@@ -11,9 +11,9 @@
 
 return [
     //====== Groups ==========================
-    $module->base_url . '/parts/<year_url:[0-9-_\w]+>/<last_url:[0-9-_\w]+>' => 'chevrolet_america/chevrolet-america/parts',
-    $module->base_url .'/<year_url:[0-9-_\w]+>/<category_url:[0-9-_\w]+>' => 'chevrolet_america/chevrolet-america/groups',
+    $module->base_url . '/parts/<year_url:[0-9-_\w]+>/<last_url:[0-9-_\w]+>' => 'cadillac/cadillac/parts',
+    $module->base_url .'/<year_url:[0-9-_\w]+>/<category_url:[0-9-_\w]+>' => 'cadillac/cadillac/groups',
     //====== Categories ==========================
-    $module->base_url .'/<year_url:[0-9-_\w]+>' => 'chevrolet_america/chevrolet-america/categories',
-    $module->base_url  => 'chevrolet_america/chevrolet-america/index',
+    $module->base_url .'/<year_url:[0-9-_\w]+>' => 'cadillac/cadillac/categories',
+    $module->base_url  => 'cadillac/cadillac/index',
 ];

@@ -6,14 +6,14 @@
  * Time: 13:17
  */
 
-namespace ispomazkin\chevrolet_america;
+namespace ispomazkin\cadillac;
 
 use yii\web\AssetBundle;
 
-class ChevroletAmericaAssetBundle extends AssetBundle
+class CadillacAssetBundle extends AssetBundle
 {
 
-    public $sourcePath = '@vendor/ispomazkin/yii2-chevrolet_america/assets';
+    public $sourcePath = '@vendor/ispomazkin/yii2-cadillac/assets';
 
     public $css = [
         'css/style.css'

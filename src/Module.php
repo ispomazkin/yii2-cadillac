@@ -1,6 +1,6 @@
 <?php
 
-namespace ispomazkin\chevrolet_america;
+namespace ispomazkin\cadillac;
 
 use yii\base\Module as BaseModule;
 
@@ -30,7 +30,7 @@ class Module extends BaseModule
      * @var string
      * Базовый путь к каталогу
      */
-    public $base_url='/chevrolet-america';
+    public $base_url='/cadillac';
 
 
     /**
@@ -40,7 +40,7 @@ class Module extends BaseModule
      * {model},{category},{group},{last}
      */
     public $titlePattern=[
-        'years'=>'Запчасти Шевроле Америка',
+        'years'=>'Запчасти Кадилак',
         'categories'=>'{model} {year}',
         'groups'=>'{category}',
         'parts'=>'{parts}'
@@ -53,7 +53,7 @@ class Module extends BaseModule
      * {model},{category},{group},{last}
      */
     public $kwdsPattern=[
-        'years'=>'EPC chevrolet America',
+        'years'=>'EPC Cadilac',
         'categories'=>'{model} {year}',
         'groups'=>'{model} {year} ',
         'parts'=>'{parts}'
@@ -67,16 +67,16 @@ class Module extends BaseModule
      * {model},{category},{group},{last}
      */
     public $descriptionPattern=[
-        'years'=>'Каталог запчастей Шевроле Америка',
-        'categories'=>'Каталог запчастей Шевроле Америка {model} {year}',
-        'groups'=>'Каталог запчастей Шевроле Америка {model} {year} по категории {category}',
-        'parts'=>'Каталог запчастей Шевроле Америка {model} {year} {category} {group} {parts}'
+        'years'=>'Каталог запчастей Кадилак',
+        'categories'=>'Каталог запчастей  {model} {year}',
+        'groups'=>'Каталог запчастей  {model} {year} по категории {category}',
+        'parts'=>'Каталог запчастей  {model} {year} {category} {group} {parts}'
 
     ];
 
 
 
 
-    public $controllerNamespace = 'ispomazkin\chevrolet_america\controllers';
+    public $controllerNamespace = 'ispomazkin\cadillac\controllers';
 
 }

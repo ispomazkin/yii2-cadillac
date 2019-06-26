@@ -13,10 +13,10 @@
 
 use yii\helpers\Html;
 use yii\helpers\Url;
-use ispomazkin\chevrolet_america\ChevroletAmericaAssetBundle;
 use app\components\Helper;
+use ispomazkin\cadillac\CadillacAssetBundle;
 
-ChevroletAmericaAssetBundle::register($this);
+CadillacAssetBundle::register($this);
 
 $img_src = $img_path . '/' .  $data['img'];
 ?>
@@ -47,7 +47,7 @@ $img_src = $img_path . '/' .  $data['img'];
             <tr>
                 <td><?=$part['pic']?></td>
                 <td><?=$this->render('_article',['article'=>$part['article'],'search_pattern'=>$search_pattern])?></td>
-                <td><?=($part['descr'] . ($part['p.'] ? ', '.$part['p.']:''))?></td>
+                <td><?=($part['description'] . ($part['side'] ? ', '.$part['side']:''))?></td>
                 <td class="mobile_hidden primen"><?=$part['primen']?></td>
                 <td class="mobile_hidden"><?=$part['year']?></td>
                 <td><?=$part['qty']?></td>
